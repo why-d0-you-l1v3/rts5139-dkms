@@ -6,12 +6,16 @@ Use it if you have issues with builtin rtsx driver.
 
 # Installation #
 
+Just install [*.deb or *.rpm package](https://github.com/why-d0-you-l1v3/rts5139-dkms/releases/) & reboot. It should work.
+
+Or, alternatively, you can:
+
+## Manual installation (via dkms) ##
 Firstly, install DKMS if it's not installed
 
 For Ubuntu:
 ```
-sudo apt update
-sudo apt install dkms
+sudo apt update && sudo apt install dkms
 ```
 For Fedora:
 ```
